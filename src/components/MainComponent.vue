@@ -1,20 +1,12 @@
 <script>
 export default {
     name: "MainComponent",
-    data() {
-        return {
-
-        }
-    },
-    methods: {
-
-    }
 }
 </script>
 
 <template>
     <main>
-        MAIN
+        <router-view></router-view>
     </main>
 </template>
 

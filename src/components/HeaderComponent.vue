@@ -14,7 +14,13 @@ export default {
 
 <template>
     <header>
-        HEADER
+        <ul>
+            <li>
+                <router-link :to="{ name: 'home' }">
+                    Home
+                </router-link>
+            </li>
+        </ul>
     </header>
 </template>
 
