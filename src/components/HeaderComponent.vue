@@ -20,6 +20,11 @@ export default {
                     Home
                 </router-link>
             </li>
+            <li>
+                <router-link :to="{ name: 'contact' }">
+                    Contact
+                </router-link>
+            </li>
         </ul>
     </header>
 </template>
